@@ -2,30 +2,33 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Tektur:wght@400..900&display=swap" rel="stylesheet">
         <title>Goal Tracker</title>
     </head>
     <body>
         <div class="main-body">
             <header class="main-header">
                 <div class="container">
-                    <h1 class="main-heading">
+                    <h1 class="main-heading text-center text-xxl">
                         Goals 2025
                     </h1>
                 </div>
             </header>
             <div class="hero">
-                <div class="goal-conatiner">
+                <div class="goal-container">
                     <div class="goal-name">
-                        <h3>Finish School</h3>
+                        <h3 class="text-xl text-center">Finish School</h3>
                     </div>
                     <div class="goal-attributes">
                         <table>
                             <tr>
-                                <thead>
-                                    <th>Priority</th>
-                                    <th>Description</th>
-                                </thead>
+                                <th class="text-center text-lg">Priority</th>
+                                <th class="text-center text-lg">Description</th>
                             </tr>
+
                             <tr>
                                 <td>High</td>
                                 <td>Finish classes still needed to graduate from the program</td>
@@ -36,14 +39,31 @@
                         <ul>
                             <li>Backend Programming</li>
                             <li>Software Security</li>
-                            <li>Mobile App Developmenmt</li>
+                            <li>Mobile App Development</li>
                             <li>Testing and TDD</li>
-                            <li>Advanved Java</li>
+                            <li>Advanced Java</li>
                             <li>Capstone</li>
                         </ul>
                     </div>                    
                 </div>
             </div>
+            <aside class="book-list">
+                <div class="container">
+                    <table class="books">
+                        <tr>
+                            <th>Title</th>
+                            <th>Author</th>
+                            <th>Category</th>
+                        </tr>
+                        <tr>
+                            <td>Meditations</td>
+                            <td>Marcus Aurelius</td>
+                            <td>Personal Growth</td>
+                        </tr>
+                    </table>
+                </div>
+            </aside>
+
         </div>
 
     </body>
